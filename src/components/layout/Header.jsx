@@ -1,15 +1,15 @@
 /* eslint-disable react/prop-types */
 import React from 'react';
-import styles from './Navbar.module.css';
+import styles from './Header.module.css';
 import { NavLink } from 'react-router-dom';
 import { FaGithub, FaLinkedin, FaWhatsapp } from 'react-icons/fa6';
 import NavLinkLocal from '../partials/NavLinkLocal';
-const Navbar = ({ user }) => {
+const Header = ({ user }) => {
   const [isNavOpen, setIsNavOpen] = React.useState(false); // initiate isNavOpen state with false
 
   return (
-    <header className=" border-b border-sky-400 py-8">
-      <div className="flex items-center justify-between px-6 max-w-7xl xl:mx-auto">
+    <header className=" border-b border-sky-400 py-8 col-span-full">
+      <div className="flex items-center justify-between px-4 max-w-7xl xl:mx-auto">
         <NavLink to="/">
           <h1 className="text-xl font-semibold text-gray-800">{user.name}</h1>
         </NavLink>
@@ -45,7 +45,7 @@ const Navbar = ({ user }) => {
                   <line x1="6" y1="6" x2="18" y2="18" />
                 </svg>
               </div>
-              <ul className="MENU-LINK-MOBILE-OPEN flex flex-col items-center gap-10 min-h-[250px] my-20">
+              <ul className="MENU-LINK-MOBILE-OPEN flex flex-col items-center gap-10 min-h-[250px] mt-20">
                 <li className="uppercase">
                   <NavLinkLocal
                     path="/"
@@ -107,4 +107,4 @@ const Navbar = ({ user }) => {
   );
 };
 
-export default Navbar;
+export default Header;

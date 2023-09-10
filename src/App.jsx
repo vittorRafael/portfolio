@@ -1,8 +1,9 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Home from './components/pages/Home';
-import Navbar from './components/layout/Navbar';
 import React from 'react';
 import axios from 'axios';
+import Header from './components/layout/Header';
+import Footer from './components/layout/Footer';
 
 function App() {
   const [user, setUser] = React.useState({});
@@ -14,16 +15,17 @@ function App() {
   }, []);
 
   return (
-    <>
+    <section className="w-full grid grid-cols-1 grid-rows-layout scroll-local">
       <Router>
-        <Navbar user={user} />
+        <Header user={user} />
         <Routes>
           <Route exact path="/" element={<Home />} />
           <Route path="/sobre" element={<Home />} />
           <Route path="/contato" element={<Home />} />
         </Routes>
+        <Footer user={user} />
       </Router>
-    </>
+    </section>
   );
 }
 
