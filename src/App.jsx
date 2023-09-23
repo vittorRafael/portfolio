@@ -4,6 +4,7 @@ import React from 'react';
 import axios from 'axios';
 import Header from './components/layout/Header';
 import Footer from './components/layout/Footer';
+import InfoProjeto from './components/pages/InfoProjeto';
 
 function App() {
   const [user, setUser] = React.useState({});
@@ -22,6 +23,7 @@ function App() {
           <Route exact path="/" element={<Home />} />
           <Route path="/sobre" element={<Home />} />
           <Route path="/contato" element={<Home />} />
+          <Route path="/projeto/:id" element={<InfoProjeto />} />
         </Routes>
         <Footer user={user} />
       </Router>

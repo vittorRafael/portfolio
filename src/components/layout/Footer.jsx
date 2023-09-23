@@ -2,8 +2,8 @@
 
 const Footer = ({ user }) => {
   return (
-    <footer className="bg-slate-200 px-4 py-8 col-span-full">
-      <h2>{user.name}</h2>
+    <footer className="bg-slate-200 px-4 py-8 flex justify-center items-center">
+      <h2>&copy; {user.name}</h2>
     </footer>
   );
 };

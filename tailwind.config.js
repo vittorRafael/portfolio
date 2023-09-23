@@ -8,7 +8,10 @@ export default {
     extend: {
       gridTemplateRows: {
         // Complex site-specific row configuration
-        'layout': '100px minmax(45rem, 1fr) 100px',
+        'layout': '100px minmax(44rem, 1fr) 100px',
+      },
+      maxWidth: {
+        'limitText': '800px'
       }
     },
   },

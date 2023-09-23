@@ -7,6 +7,10 @@ import NavLinkLocal from '../partials/NavLinkLocal';
 const Header = ({ user }) => {
   const [isNavOpen, setIsNavOpen] = React.useState(false); // initiate isNavOpen state with false
 
+  function handleClick() {
+    setIsNavOpen(false);
+  }
+
   return (
     <header className=" border-b border-sky-400 py-8 col-span-full">
       <div className="flex items-center justify-between px-4 max-w-7xl xl:mx-auto">
@@ -51,6 +55,7 @@ const Header = ({ user }) => {
                     path="/"
                     text="Projetos"
                     classes="text-xl hover:text-2xl"
+                    handleClick={handleClick}
                   />
                 </li>
                 <li className="uppercase">
@@ -58,6 +63,7 @@ const Header = ({ user }) => {
                     path="/sobre"
                     text="Sobre"
                     classes="text-xl hover:text-2xl"
+                    handleClick={handleClick}
                   />
                 </li>
                 <li className="uppercase">
@@ -65,6 +71,7 @@ const Header = ({ user }) => {
                     path="/contato"
                     text="Contato"
                     classes="text-xl hover:text-2xl"
+                    handleClick={handleClick}
                   />
                 </li>
               </ul>

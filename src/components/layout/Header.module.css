@@ -2,7 +2,7 @@
   display: none;
 }
 .showMenuNav {
-  position: absolute;
+  position: fixed;
   width: 100%;
   height: 100vh;
   top: 0;
@@ -13,5 +13,4 @@
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  max-height: 100vh;
 }
