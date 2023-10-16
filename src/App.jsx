@@ -15,6 +15,13 @@ function App() {
       .then((r) => setUser(r.data));
   }, []);
 
+  const toTop = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: 'smooth',
+    });
+  };
+
   return (
     <section className="w-full grid grid-cols-1 grid-rows-layout scroll-local">
       <Router>
@@ -25,6 +32,12 @@ function App() {
           <Route path="/contato" element={<Home />} />
           <Route path="/projeto/:id" element={<InfoProjeto />} />
         </Routes>
+        <button
+          onClick={toTop}
+          className="text-sky-600 hover:text-sky-900 hover:text-lg transition-all duration-300"
+        >
+          Voltar para o topo &uarr;
+        </button>
         <Footer user={user} />
       </Router>
     </section>
