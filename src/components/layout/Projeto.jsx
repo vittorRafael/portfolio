@@ -5,7 +5,7 @@ const Projeto = ({ projeto }) => {
   return (
     <article className="col-span-1 row-span-2 relative">
       <img
-        src={projeto.src}
+        src={projeto.imgs[0]}
         alt="Projeto Costs"
         className="w-full h-full object-cover"
       />

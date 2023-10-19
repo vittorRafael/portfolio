@@ -21,6 +21,12 @@ import notesImg from './assets/img/Notes/notes.png';
 import notesImg1 from './assets/img/Notes/notes1.png';
 import notesImg2 from './assets/img/Notes/notes2.png';
 import notesImg3 from './assets/img/Notes/notes3.png';
+import carrosselImg from './assets/img/carrossel/img1.png';
+import carrosselImg1 from './assets/img/carrossel/img2.png';
+import carrosselImg2 from './assets/img/carrossel/img3.png';
+import carrosselImg3 from './assets/img/carrossel/img4.png';
+import carrosselImg4 from './assets/img/carrossel/img5.png';
+import carrosselImg5 from './assets/img/carrossel/img6.png';
 
 
 
@@ -112,6 +118,26 @@ const projetoArray = [
       ], 
       imgs: [BickraftImg,BickraftImg2,BickraftImg3,BickraftImg4,BickraftImg5,BickraftImg6,BickraftImg7], 
       link: 'https://vittorrafael.github.io/bikcraft/' 
+    },
+    { 
+      id: 5, 
+      nome: 'Carrossel App', 
+      sobre: [
+        'Nossa aplicação é um aplicativo completo de construção de carrosséis de imagens, incorporando um amplo conjunto de tecnologias modernas no frontend e no backend. No frontend, utilizamos React, React-router-dom, react-icons, axios, CSS3, Tailwind CSS, framer-motion e JavaScript para criar uma interface de usuário intuitiva e visualmente atraente. No backend, contamos com Node.js, Express, MongoDB, Firebase Admin, JSON Web Token (JWT), Bcrypt, dotenv, Multer e Mongoose para gerenciar toda a lógica de negócios e a segurança da aplicação.',
+        'Funcionalidades Principais:',
+        '1 - Construção de Carrosséis: Os usuários com contas de administrador têm a capacidade de criar, editar e excluir carrosséis de imagens. Cada carrossel pode conter várias imagens e ser personalizado de acordo com suas preferências.',
+        '2 - Gerenciamento de Imagens: Os administradores podem adicionar ou excluir imagens em carrosséis existentes, proporcionando flexibilidade na criação de apresentações de slides visualmente atraentes.',
+        '3 - Login de Usuários: A aplicação oferece autenticação de usuário, com dois tipos de contas: administrador (admin) e público (public). Os administradores têm acesso total para manipular o aplicativo, enquanto os usuários públicos têm apenas acesso de leitura aos carrosséis criados.',
+        '4 - Segurança com Firebase Admin e JWT: O Firebase Admin é usado para autenticar e autorizar os administradores, garantindo a segurança dos dados e a autenticação segura. O JSON Web Token (JWT) é utilizado para gerar tokens de autenticação.',
+        '5 - Criptografia de Senha com Bcrypt: As senhas dos administradores são armazenadas com segurança, usando Bcrypt para criptografá-las e protegê-las contra acesso não autorizado.',
+        '6 - Envio de Imagens com Multer: A capacidade de fazer o upload de imagens é facilitada pelo Multer, que lida com o armazenamento e gerenciamento de arquivos de imagem enviados pelos administradores.',
+        '7 - Persistência de Dados com MongoDB e Mongoose: Os dados sobre carrosséis, imagens e informações de usuário são armazenados no MongoDB, com o Mongoose facilitando a criação de modelos de dados e as operações CRUD.',
+        '8 - Estilo Visual com Tailwind CSS: A aplicação é estilizada com o Tailwind CSS para criar uma experiência de usuário agradável e responsiva.',
+        '9 - Roteamento com React-router-dom: O React-router-dom é usado para criar uma navegação suave e intuitiva entre as páginas da aplicação.', 
+        'Esta aplicação completa é um exemplo impressionante de como as tecnologias podem ser combinadas para criar uma plataforma flexível e segura para a construção e compartilhamento de carrosséis de imagens. Ela atende tanto aos administradores quanto aos usuários públicos, garantindo uma experiência de usuário envolvente e segura.'
+      ], 
+      imgs: [carrosselImg,carrosselImg1,carrosselImg2,carrosselImg3,carrosselImg4,carrosselImg5], 
+      link: 'https://carrosselfront.vercel.app/' 
     },
   ]
 
