@@ -6,6 +6,7 @@ import Header from './components/layout/Header';
 import Footer from './components/layout/Footer';
 import InfoProjeto from './components/pages/InfoProjeto';
 import Sobre from './components/pages/Sobre';
+import Contato from './components/pages/Contato';
 
 function App() {
   const [user, setUser] = React.useState({});
@@ -30,7 +31,7 @@ function App() {
         <Routes>
           <Route exact path="/" element={<Home />} />
           <Route path="/sobre" element={<Sobre user={user} />} />
-          <Route path="/contato" element={<Home />} />
+          <Route path="/contato" element={<Contato />} />
           <Route path="/projeto/:id" element={<InfoProjeto />} />
         </Routes>
         <button
