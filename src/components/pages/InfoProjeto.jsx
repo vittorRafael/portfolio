@@ -12,6 +12,13 @@ const InfoProjeto = () => {
     );
     setProjeto(respProjeto[0]);
   }, [location.id]);
+
+  React.useState(() => {
+    window.scrollTo({
+      top: 0,
+      behavior: 'smooth',
+    });
+  }, []);
   return (
     <main className="col-span-full">
       <div className="px-10 py-14 lg:max-w-limitText lg:mx-auto flex flex-col gap-5">
