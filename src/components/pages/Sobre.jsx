@@ -52,6 +52,12 @@ const Sobre = ({ user }) => {
         </p>
         <p className="text-gray-400 font-medium">
           <strong className="text-gray-600 font-bold">
+            Empresa Canopus:{' '}
+          </strong>
+          Como desenvolvedor fullstack, minha experiência inclui ajustar erros em aplicações em produção, acessar máquinas e servidores externos para extrair logs, e colaborar com equipes no México para interligar nossas aplicações com os apps deles. Utilizo a linguagem de programação Python para resolver problemas complexos e garantir a integração fluida entre sistemas, contribuindo para o sucesso contínuo dos projetos em que estou envolvido. Minhas habilidades técnicas e de comunicação me permitem resolver problemas complexos e garantir a integração fluida entre sistemas, contribuindo para o sucesso contínuo dos projetos em que estou envolvido.
+        </p>
+        <p className="text-gray-400 font-medium">
+          <strong className="text-gray-600 font-bold">
             Projetos Pessoais e de comunidades:{' '}
           </strong>
           Como desenvolvedor web, utilizei de tecnologias para criar aplicações
@@ -401,6 +407,96 @@ const Sobre = ({ user }) => {
               </svg>
               <span>Firebase</span>
             </li>
+            <li className="flex items-center space-x-3">
+              <svg
+                className="flex-shrink-0 w-3.5 h-3.5 text-green-500 dark:text-green-400"
+                aria-hidden="true"
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 16 12"
+              >
+                <path
+                  stroke="currentColor"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth="2"
+                  d="M1 5.917 5.724 10.5 15 1.5"
+                />
+              </svg>
+              <span>Fastify</span>
+            </li>
+            <li className="flex items-center space-x-3">
+              <svg
+                className="flex-shrink-0 w-3.5 h-3.5 text-green-500 dark:text-green-400"
+                aria-hidden="true"
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 16 12"
+              >
+                <path
+                  stroke="currentColor"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth="2"
+                  d="M1 5.917 5.724 10.5 15 1.5"
+                />
+              </svg>
+              <span>Knex</span>
+            </li>
+            <li className="flex items-center space-x-3">
+              <svg
+                className="flex-shrink-0 w-3.5 h-3.5 text-green-500 dark:text-green-400"
+                aria-hidden="true"
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 16 12"
+              >
+                <path
+                  stroke="currentColor"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth="2"
+                  d="M1 5.917 5.724 10.5 15 1.5"
+                />
+              </svg>
+              <span>Jest</span>
+            </li>
+            <li className="flex items-center space-x-3">
+              <svg
+                className="flex-shrink-0 w-3.5 h-3.5 text-green-500 dark:text-green-400"
+                aria-hidden="true"
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 16 12"
+              >
+                <path
+                  stroke="currentColor"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth="2"
+                  d="M1 5.917 5.724 10.5 15 1.5"
+                />
+              </svg>
+              <span>Vitest</span>
+            </li>
+            <li className="flex items-center space-x-3">
+              <svg
+                className="flex-shrink-0 w-3.5 h-3.5 text-green-500 dark:text-green-400"
+                aria-hidden="true"
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 16 12"
+              >
+                <path
+                  stroke="currentColor"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth="2"
+                  d="M1 5.917 5.724 10.5 15 1.5"
+                />
+              </svg>
+              <span>ZOD</span>
+            </li>
           </ul>
         </p>
 
@@ -543,7 +639,7 @@ const Sobre = ({ user }) => {
           <strong className="text-gray-600 font-bold">
             EEEP José Maria Falcão:{' '}
           </strong>
-          Ensino Médio e Técnico em Informática concluído.
+          Ensino Médio e Técnico em Informática, concluído.
           <span className="text-gray-600 text-xs font-bold">
             {' '}
             Jan - 2017 a Dez - 2019
@@ -553,7 +649,7 @@ const Sobre = ({ user }) => {
           <strong className="text-gray-600 font-bold">
             Uniasselvi - Centro Universitário Leonardo da Vinci:{' '}
           </strong>
-          Graduação em Análise e desenvolvimento de sistemas, em andamento.
+          Graduação em Análise e desenvolvimento de sistemas, concluído.
           <span className="text-gray-600 text-xs font-bold">
             {' '}
             Jan - 2021 a Dez - 2023
@@ -561,8 +657,7 @@ const Sobre = ({ user }) => {
         </p>
         <p className="text-gray-400 font-medium">
           <strong className="text-gray-600 font-bold">Cubos Academy: </strong>
-          Curso desenvolvimento de software - foco em backend - ifood, em
-          andamento.
+          Curso desenvolvimento de software - foco em backend - ifood, concluído.
           <span className="text-gray-600 text-xs font-bold">
             {' '}
             Ago - 2023 a Dez - 2023
