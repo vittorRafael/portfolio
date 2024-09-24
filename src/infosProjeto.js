@@ -27,6 +27,8 @@ import carrosselImg2 from './assets/img/carrossel/img3.png';
 import carrosselImg3 from './assets/img/carrossel/img4.png';
 import carrosselImg4 from './assets/img/carrossel/img5.png';
 import carrosselImg5 from './assets/img/carrossel/img6.png';
+import biodermisImg from './assets/img/biodermis/biodermis1.png';
+import biodermisImg1 from './assets/img/biodermis/biodermis2.png';
 
 
 
@@ -139,6 +141,36 @@ const projetoArray = [
       imgs: [carrosselImg,carrosselImg1,carrosselImg2,carrosselImg3,carrosselImg4,carrosselImg5], 
       link: 'https://carrosselfront.vercel.app/' 
     },
+    { 
+      id: 6, 
+      nome: 'Biodermis App', 
+      sobre: [
+        'A aplicação Biodermis é uma plataforma backend robusta focada na compra, venda e revenda de produtos. Ela se destaca ao permitir que diferentes tipos de usuários interajam de forma segura e eficiente. A estrutura principal do sistema é dividida em três papéis: Clientes: Visualizam produtos disponíveis e realizam suas compras diretamente no aplicativo. Consultores: Adquirem produtos com a autorização de administradores (admins) para revender, obtendo lucro ao vendê-los a preços mais elevados. Admins: São responsáveis por autorizar consultores e gerenciar o fluxo de produtos e pedidos na plataforma.',
+        'No backend, foram incorporadas as seguintes tecnologias para garantir o bom funcionamento e segurança da aplicação:',
+        '- Node.js: Plataforma usada para gerenciar a lógica e o desempenho do servidor.',
+        '- Express: Framework para rotas e middleware, facilitando a criação de APIs RESTful.',
+        '- PostgreSQL: Banco de dados relacional utilizado para armazenar e gerenciar dados de produtos, usuários e pedidos.',
+        '- Knex.js: Query builder usado para facilitar a interação com o banco de dados PostgreSQL.',
+        '- Bcrypt: Implementado para criptografar senhas e proteger as informações dos usuários.',
+        '- JWT (JSON Web Token): Utilizado para gerar e verificar tokens de autenticação de usuários.',
+        '- Multer: Facilita o upload e gerenciamento de arquivos (como imagens de produtos).',
+        '- Nodemailer + Nodemailer-Express-Handlebars: Ferramenta usada para enviar e-mails automáticos de confirmação de pedidos e notificações.',
+        '- MercadoPago: Integração para facilitar os pagamentos e transações financeiras, simulando uma carteira digital dentro da aplicação.',
+        '- Swagger: Ferramenta para documentação automatizada de APIs, tornando o processo de integração mais transparente e acessível.',
+        'Funcionalidades Principais:',
+        '1 - Autenticação e Validação de Dados: A aplicação implementa autenticação robusta usando JWT e bcrypt, garantindo segurança e privacidade. Validações de dados são aplicadas em todos os endpoints, com regras de negócios específicas para cada operação.',
+        '2 - Regras de Negócio e Lógica por Endpoint: A lógica da aplicação define claramente como os consultores podem adquirir produtos para revenda e como os administradores controlam essas operações.',
+        '3 - Integração de Pagamentos com MercadoPago: A aplicação permite que os usuários façam pagamentos diretamente pela plataforma, além de realizar saques e gerenciar pedidos de maneira segura e eficiente, atuando como uma carteira digital.',
+        '4 - Segurança com JWT: O app tem uma rota que é usada para autenticar e autorizar os administradores, garantindo a segurança dos dados e a autenticação segura. O JSON Web Token (JWT) é utilizado para gerar tokens de autenticação.',
+        '5 - Criptografia de Senha com Bcrypt: As senhas dos administradores são armazenadas com segurança, usando Bcrypt para criptografá-las e protegê-las contra acesso não autorizado.',
+        '6 - Envio de Imagens com Multer: A capacidade de fazer o upload de imagens é facilitada pelo Multer, que lida com o armazenamento e gerenciamento de arquivos de imagem enviados pelos administradores.',
+        '7 - Gerenciamento de Pedidos e Saques: Consultores podem gerenciar seus pedidos e saques diretamente no aplicativo, garantindo que seus lucros sejam contabilizados de forma clara e acessível.',
+        'Essa aplicação backend foi desenvolvida para oferecer um sistema seguro, eficiente e funcional, atendendo tanto às necessidades dos consultores que desejam lucrar com a revenda quanto dos administradores que gerenciam a operação.        '
+      ], 
+      imgs: [biodermisImg,biodermisImg1], 
+      link: 'http://85.31.61.50:3000/api-docs/' 
+    },
   ]
 
 export default projetoArray
+

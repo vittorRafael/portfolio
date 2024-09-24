@@ -497,6 +497,78 @@ const Sobre = ({ user }) => {
               </svg>
               <span>ZOD</span>
             </li>
+            <li className="flex items-center space-x-3">
+              <svg
+                className="flex-shrink-0 w-3.5 h-3.5 text-green-500 dark:text-green-400"
+                aria-hidden="true"
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 16 12"
+              >
+                <path
+                  stroke="currentColor"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth="2"
+                  d="M1 5.917 5.724 10.5 15 1.5"
+                />
+              </svg>
+              <span>DayJs</span>
+            </li>
+            <li className="flex items-center space-x-3">
+              <svg
+                className="flex-shrink-0 w-3.5 h-3.5 text-green-500 dark:text-green-400"
+                aria-hidden="true"
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 16 12"
+              >
+                <path
+                  stroke="currentColor"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth="2"
+                  d="M1 5.917 5.724 10.5 15 1.5"
+                />
+              </svg>
+              <span>Prisma</span>
+            </li>
+            <li className="flex items-center space-x-3">
+              <svg
+                className="flex-shrink-0 w-3.5 h-3.5 text-green-500 dark:text-green-400"
+                aria-hidden="true"
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 16 12"
+              >
+                <path
+                  stroke="currentColor"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth="2"
+                  d="M1 5.917 5.724 10.5 15 1.5"
+                />
+              </svg>
+              <span>Typescript</span>
+            </li>
+            <li className="flex items-center space-x-3">
+              <svg
+                className="flex-shrink-0 w-3.5 h-3.5 text-green-500 dark:text-green-400"
+                aria-hidden="true"
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 16 12"
+              >
+                <path
+                  stroke="currentColor"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth="2"
+                  d="M1 5.917 5.724 10.5 15 1.5"
+                />
+              </svg>
+              <span>Supertest</span>
+            </li>
           </ul>
         </p>
 
@@ -661,6 +733,14 @@ const Sobre = ({ user }) => {
           <span className="text-gray-600 text-xs font-bold">
             {' '}
             Ago - 2023 a Dez - 2023
+          </span>
+        </p>
+        <p className="text-gray-400 font-medium">
+          <strong className="text-gray-600 font-bold">Rocketseat: </strong>
+          Node.js, desenvolva aplicações completas e escaláveis com Node.js e diversos Frameworks, concluído.
+          <span className="text-gray-600 text-xs font-bold">
+            {' '}
+            Jul - 2024 a Set - 2024
           </span>
         </p>
       </div>
